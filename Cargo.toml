@@ -1,0 +1,13 @@
+[package]
+name = "rust-version-macro"
+version = "0.1.0"
+authors = ["Grégoire Geis <git@gregoirege.is>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+rustc_version = "^0.2"
+
+[dev-dependencies]
+speculate = "^0.0"
