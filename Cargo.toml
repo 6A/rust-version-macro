@@ -1,7 +1,13 @@
 [package]
-name = "rust-version-macro"
+name    = "rust-version-macro"
 version = "0.1.0"
 authors = ["Grégoire Geis <git@gregoirege.is>"]
+
+repository  = "https://github.com/6A/rust-version-macro"
+description = """
+  A Rust procedural macro that only compiles the content it marks if the given
+  expression matches the compiler's version.
+"""
 
 [lib]
 proc-macro = true
